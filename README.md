@@ -1,6 +1,9 @@
 # Credit Risk Analysis — Loan Portfolio Audit
-  This project analyzes 1,020 loan applications to identify
-  hidden risk inside an approved loan portfolio.
+
+## Dataset
+- 1,020 synthetic loan applications
+- 16 features including credit score, DTI ratio,
+  employment status, loan purpose, coborrower status
   
 ## Problem statement
 Are banks approving loans that they shouldn't be?
@@ -35,8 +38,13 @@ Are there any hidden issues in the portfolio that migh affect the bank?
 
 6. Replace income-only approval shortcuts with income-to-debt ratio as the primary filter. A borrower        earning ₹2,00,000 annually but carrying 50%+ debt burden is not a safe borrower. Underwriting policy      should mandate DTI evaluation as a non-negotiable step regardless of income level.
 
+## Summary 
+   This portfolio's approval rate of 314 loans looks healthy. But beneath it, 25% carry unstable income 
+   risk, 21% show coborrower loophole signs, 15% are mispriced, and ₹2,68,671 sits in loans that should 
+   have been flagged before approval. The data does not suggest the portfolio is broken — it suggests 
+   underwriting rules have gaps that if closed would significantly improve risk-adjusted returns.
 
 ## Files
-notebooks — pandas data cleaning , 
-sql — all analysis queries with comments , 
-dashboard — visual summary , 
+- /notebooks — pandas data cleaning
+- /sql — all analysis queries with comments  
+- /dashboard — risk summary chart
