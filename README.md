@@ -37,6 +37,6 @@ Are there any hidden issues in the portfolio that migh affect the bank?
 
 
 ## Files
-notebooks — pandas data cleaning
-sql — all analysis queries with comments
-dashboard — visual summary
+notebooks — pandas data cleaning , 
+sql — all analysis queries with comments , 
+dashboard — visual summary , 
